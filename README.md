@@ -16,5 +16,14 @@ pip install -r requirements.txt
 ```<br>
 4) Run
 ```
-
+python ofish.py
+```<br>
+# Playing
+Since Ofish is uci compliant chess engine, you have to use <a href="http://www.playwitharena.de/">Arena</a> or other compatible GUIS to load the engine<br>
+But first, you need to build the executable by running: <br>
 ```
+!python -m pyinstaller Ofish.py
+```<br>
+Then move the folder tablebase_files and the file komodo.bin into ./dist where the executable is.
+
+
